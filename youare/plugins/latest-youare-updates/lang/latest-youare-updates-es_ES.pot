@@ -1,0 +1,25 @@
+#: wp-content/plugins/latest-youare-updates.php:69
+msgid "a few seconds ago"
+msgstr "hace unos segundos"
+
+#: wp-content/plugins/latest-youare-updates.php:71
+msgid "1 minute ago"
+msgstr "hace 1 minuto"
+
+#: wp-content/plugins/latest-youare-updates.php:73
+msgid "%d minutes ago"
+msgstr "hace %d minutos"
+
+#: wp-content/plugins/latest-youare-updates.php:77
+msgid "%d hours %d minutes ago"
+msgstr "hace %d horas y %d minutos"
+
+#: wp-content/plugins/latest-youare-updates.php:79
+msgid "%d hours ago"
+msgstr "hace %d horas"
+
+#: wp-content/plugins/latest-youare-updates.php:170
+msgid "There was a problem reading your latest YouAre updates"
+msgstr "Ha habido un problema al leer tus últimas actualizaciones en YouAre"
+
+
