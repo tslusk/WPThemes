@@ -1,0 +1,81 @@
+div.p3-notice {
+	padding:7px 10px;
+	font-size:12px;
+}
+#siteurl-change-warn p {
+	color:red;
+	max-width: 600px;
+	margin-bottom:0;
+}
+.p3-remote-notice {
+	font-size:11px;
+	background:#f5f5f5;
+	border:1px solid #ddd;
+	color:#777;
+	padding:4px 8px;
+	max-width:760px;
+	margin-bottom:11px;
+	margin-top:8px;
+}
+.p3-remote-notice-normal {
+	background-color:#FFFFE0;
+	border-color:#E6DB55;
+	color:#333;
+}
+.p3-remote-notice-announcement {
+	background:#e7f8ea;
+	border:1px solid #ddd;
+	color:#333;
+}
+.p3-remote-notice-warning {
+	background-color:#FFEBE8;
+	border-color:#ff6161;
+	color:#333;
+}
+.p3-remote-notice-problem {
+	background-color:#FFEBE8;
+	border-color:#CC0000;
+	color:#CC0000;
+	font-size:12px;
+	font-weight:700;
+}
+.p3-remote-notice-oh-shit {
+	font-size:14px;
+	font-weight:700;
+	color:#CC0000;
+	border-color:#CC0000;
+	border-width:3px;
+	min-height:76px;
+	max-width:676px;
+	padding-left:88px;
+	background:#FFEBE8 url(http://prophoto.s3.amazonaws.com/img/radioactive.png) no-repeat top left !important;
+}
+.p3-remote-notice-problem strong,
+.p3-remote-notice-oh-shit strong {
+	text-decoration:underline;
+}
+.p3-remote-notice-oh-shit strong {
+	text-transform:uppercase;
+}
+div.p3-notice {
+	display:none;
+}
+.wrap div.p3-notice {
+	display:block;
+}
+body #update-nag {
+	background-color:#FFEBE8;
+	border-color:#ff6161;
+	color:#333;
+	border-width:1px;
+	border-style:solid;
+	margin: 15px 10px 0 0;
+}
+#ftp-advise {
+	background:#e7f8ea;
+	border:1px solid #ddd;
+	padding:8px;
+	width:530px;
+	margin-bottom:8px;
+	color:#333;
+}

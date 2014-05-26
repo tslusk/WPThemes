@@ -1,0 +1,180 @@
+/*
+Styles added to the options page, upload related elements only
+*/
+.below-options {
+	clear:both;
+	padding-top:10px;
+}
+.no-img .only-if-img {
+	display:none;
+}
+.highlight-small-img {
+	display:none;
+	margin-left:3px;
+	color:#777;
+}
+p.img-comment {
+	margin-top:0;
+	color:#777;
+	font-size:11px;
+}
+.very-small-image .highlight-small-img {
+	display:inline;
+}
+.ie6-color {
+	display:none;
+}
+.ie6-color .individual-option {
+	width:233px !important;
+	padding-right:0 !important;
+}
+.is-png .bg-color-not-set .ie6-color {
+	display:block;
+}
+.bg-img-options {
+	clear:both;
+	padding:14px 14px 3px 14px;
+}
+.bg-img-options .individual-option {
+	width:160px;
+	padding-right:22px;
+}
+.upload-row-body {
+	padding:14px;
+}
+.p3_upload_misc p {
+	padding-left: 34px;
+}
+.upload-row-label p {
+	padding-bottom:2px;
+}
+.p3_image_comment p {
+	margin:0;
+	padding:0 0 8px 0;
+}
+
+.image-explanation p {
+	padding: 20px 0 20px 15px;
+	width: 650px;
+	margin-top:0;
+	margin-bottom:0;
+	font-style:italic;
+	color: #666;
+}
+.p3_widthmsg {
+	margin-bottom:0;
+}
+.p3_image_comment {
+	padding: 18px 31px 15px 0;
+	margin-left:195px;
+	color:#666;
+}
+.aut-view, .shown .aut-hide {
+	display:inline !important;
+}
+.aut-hide, .shown .aut-view {
+	display:none !important;
+} 
+.upload-row-header {
+	color:#FFF;
+	background: #999 url(http://prophoto.s3.amazonaws.com/img/header_bg.jpg) repeat-x top left;
+	padding:0;
+	margin:12px 0 5px 0;
+	font-size:12px;
+	height:32px;
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+.upload-row-header p {
+	margin:0;
+	font-size:13px;
+	padding: 6px 40px 0 15px;
+}
+.upload-row {
+	background:#f1f1f1;
+	font-size:11px;
+	position:relative;
+}
+
+.upload-row-label p {
+	font-size:11px;
+	margin:0;
+	color:#555;
+}
+.upload-row-main {	
+	padding: 0 8px 11px 17px;
+	#padding-bottom: 20px;
+}
+
+ul.p3_image_infos {
+	background:#e6e6e6;
+	list-style-type:none;
+	padding:.8em 1em .9em 1em;
+	font-size:1em;
+	margin:5px 0 8px 0;
+}
+ul.p3_image_infos li {
+	line-height:100%;
+}
+.advanced-image ul.p3_image_infos {
+	background:#eee;
+}
+.p3_upload_box {
+	padding:0 1em 1em 1em;
+	overflow:hidden;
+	margin:.65em 0;
+}
+/*.hidden-image-group .upload-row {
+	background: #e3e3e3 !important;
+}*/
+.p3_upload_box h3.header {
+	border-bottom:none;
+	float:left;
+	margin:0 30px 0 0;
+}
+.p3_upload_box h3 {
+	padding:.8em 0 .5em 0;
+	margin:0 0 1em 0;
+	border-bottom:1px solid white;
+}
+a.p3_upload_button, a.p3_reset_button {
+	display:block;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	padding:3px 8px;
+}
+.p3_reset_button {
+	margin-right:0;
+}
+.p3_upload_button a:hover, .p3_reset_button a:hover, .button-primary:hover {
+	color: #fff !important;
+	background-image:none !important;
+}
+.bg-option-group .image-holder {
+	width:395px;
+}
+.image-holder {
+	float:left;
+	margin-left:14px;
+	width:570px;
+}
+
+.image-info {
+	float:left;
+	width: 205px;
+}
+
+.p3_fh_dimensions_ok {
+	color: green;
+}
+
+.p3_fh_dimensions_notok {
+	color: red;
+}
+
+.p3_upload_misc {
+	background:transparent url() top left no-repeat;
+	height:50px;
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Rewrite WordPress Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:10px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Rewrite WordPress Theme&rdquo; Documentation by &ldquo;Mike McAlister&rdquo;</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Rewrite WordPress&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 1/16/2012<br>
+					By: Mike McAlister<br>
+					Version 1.0
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme! If you have any questions that are beyond the scope of this help file, please feel free to check out the <a href="http://okaythemes.com/support" title="support forum">Support Forum</a>.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>		
+	
+<div class="columns">
+  <div class="column maincol">
+
+    <div class="article">
+
+   <div><h2>Installation Screencast</h2>
+  <p>I have provided several installation screencasts to get you
+  started with the Rewrite theme. Be sure to pay attention, as this
+  will help you get the theme installed with ease!</p>
+  <p>Theme Setup:</p>
+  <iframe src=
+  "http://player.vimeo.com/video/35132078?title=0&amp;byline=0&amp;portrait=0"
+  width="651" height="366" frameborder="0" webkitallowfullscreen=""
+  allowfullscreen=""></iframe>
+  <h2>Rewrite Installation</h2>
+  <ul>
+  <li>
+  <p>First of all, you should have WordPress installed and ready to
+  roll. It's always recommended that you start with a fresh install
+  of WordPress to prevent a conflict of settings from old themes,
+  etc. <strong>Make sure you backup your old theme and your posts,
+  pages, etc. in case of a catastrophe!</strong></p>
+  </li>
+  <li>
+  <p>Unzip the theme package. In the folder you'll find the Rewrite
+  docs and a zip titled UploadToWP.zip. <strong>This is the theme zip
+  that you need to upload into WordPress.</strong></p>
+  </li>
+  <li>
+  <p>In the WordPress admin, go to Appearance -&gt; Themes. Click on
+  the big Install Themes tab at the top of the page. Next, click the
+  Upload link and navigate to the UploadToWP.zip file. Install and
+  activate the theme.</p>
+  </li>
+  <li>
+  <p>Optional but recommended - Install the dummy data which is
+  included. (You can also get it here: <a href=
+  "/help/assets/15cc3b9d2fa95fdaf2a182f6f262dba79b50ae00/rewrite.xml">
+  rewrite.xml</a>) This will ensure the posts/pages get laid out
+  properly with the correct page templates. Go to Tools -&gt; Import
+  -&gt; Wordpress. Browse to the Rewrite download folder and locate
+  the Dummy Data folder. Select the XML file and upload it. Be sure
+  to click "download and import all attachments".</p>
+  </li>
+  <li>
+  <p>Rewrite needs the Options Framework plugin to add the theme
+  options. You can either click the install prompt at the top of the
+  screen, or go to Plugins -&gt; Add New and search for
+  <strong>Options Framework</strong>. Install and activate the
+  plugin.</p>
+  </li>
+  <li>
+  <p>Next you need to grab the Contact Form 7 plugin. Once again, go
+  to Plugins -&gt; Add new. Search for "Contact Form 7". Install this
+  plugin. To use this plugin, you'll need to go to the Contact menu
+  (now on the left menu) and create a form. Once you're done, it will
+  give you a shortcode you can use in your contact page. If you've
+  used the dummy data, this should already be in there for you.</p>
+  </li>
+  </ul>
+  <h2>Theme Options Setup</h2>
+  <p>Theme options are crucial to the Rewrite theme. If you didn't
+  watch the screencasts, you can read the directions below. You must
+  go through the theme options setup before the theme will work
+  properly.</p>
+  <ul>
+  <li>
+  <p>You'll notice under the Appearence menu, there is a Theme
+  Options menu. Click this link.</p>
+  </li>
+  <li>
+  <p>Under Basic Settings you can upload your logo, set the link
+  color, select a background style and insert your Google Analytics
+  code. <strong>Save Changes</strong></p>
+  </li>
+  <li>
+  <p>Under the Social Media Links tab, you just need to enter your
+  social media links for the icons you want to show up on the sticky
+  part of the sidebar. <strong>Save Changes</strong>.</p>
+  </li>
+  </ul>
+  <h2>Wordpress 3.0 Menus</h2>
+  <p>Rewrite takes advantage of the new Wordpress 3.0 menu manager.
+  Menus can be found under Appearence -&gt; Menus. For more detailed
+  usage of the menu manager, see this tutorial <a href=
+  "http://www.bestofblogger.net/2010/06/how-to-use-the-wordpress-3-0-menu-creator/"
+  title="Menus">here</a>.</p>
+  <ul>
+  <li>
+  <p>You'll need to create two different menus; one for the header,
+  one for the footer. Start with the header menu. Create a menu and
+  name it whatever you want.</p>
+  </li>
+  <li>
+  <p>Now, on the left hand side, select the pages you would like to
+  have added to the menu. You can then click "Add to Menu" and they
+  will show up on the right side of the page. You can drag the pages
+  around to arrange them the way you'd like.</p>
+  </li>
+  <li>
+  <p><strong>Save the menu</strong>.</p>
+  </li>
+  <li>
+  <p>Now let's create the footer menu. At the top of the page you'll
+  see a new menu button (has a + on it). Create a new menu and call
+  it Footer. Add pages and arrange them the same way you did before.
+  When you're finished, save the menu.</p>
+  </li>
+  <li>
+  <p>Now that you have both menus created, you need to assign them in
+  the Theme Locations window located on the left. From the drop down
+  menu, select the appropriate menu for the header and footer and
+  save.</p>
+  </li>
+  </ul>
+  <h2>Widgets</h2>
+  <p>I've included a few custom widgets and styled several other
+  widgets to help sexify your theme.</p>
+  <ul>
+  <li>
+  <p><strong>Sidebar</strong> - You can put whatever you want in the
+  sidebar. I have provided custom Twitter widgets for your use. Just
+  drag any widget to the Sidebar pane and be sure to fill out any
+  required fields for them to work.</p>
+  </li>
+  <li>
+  <p><strong>Sticky Sidebar</strong> - This is the small sidebar that
+  sticks on the page as users scroll. On the demo site I used the
+  Twitter widget. You can put whatever you want here as well, but be
+  warned that if you put too many items in the sticky footer the
+  screen will cut off the sidebar. Since it's position is fixed, it
+  will not scroll to show many widgets.</p>
+  </li>
+  <li>
+  <p><strong>Footer Columns</strong>: The footer is divided up into
+  three columns. On the demo site, I used a text widget on the left,
+  popular tags in the center, and the Okay Twitter widget on the
+  right.</p>
+  </li>
+  </ul>
+  <h2>Creating Posts</h2>
+  <p><strong>Videos</strong></p>
+  <ul>
+  <li>
+  <p>Create a new post and add a title and description.</p>
+  </li>
+  <li>
+  <p>Next, scroll down the page a bit and look for the Custom Fields
+  box. <strong>If you don't see the Custom Fields box, look up
+  towards the top of your screen and click the Screen Options drop
+  down. Make sure Custom Fields is checked.</strong>.</p>
+  </li>
+  <li>
+  <p>Now you can add the Custom Field. The Name is going to be
+  <strong>okvideo</strong> and the value will be your embed code. The
+  embed code should look something like the code below. <strong>Be
+  sure to keep your video width around 690px to fit nicely in the
+  theme.</strong> Click Add Custom Field.</p>
+  </li>
+  </ul>
+  <p><code>&lt;iframe
+  src="http://player.vimeo.com/video/4143170?title=0&amp;amp;byline=0&amp;amp;portrait=0"
+  frameborder="0" width="565"
+  height="229"&gt;&lt;/iframe&gt;</code></p>
+  <ul>
+  <li>
+  <p>Once you've added the custom field, you need to be sure to add a
+  category or any descriptive tags if you want.</p>
+  </li>
+  <li>
+  <p>Publish the post when you're finished.</p>
+  </li>
+  </ul>
+  <p><strong>Text Posts</strong></p>
+  <ul>
+  <li>
+  <p>Create a new post and add a title and description.</p>
+  </li>
+  <li>
+  <p>Write your content and add whatever styling you want. If you
+  want to have a nice big quote like on the demo site, just use the
+  Blockquote button on the WordPress post editor.</p>
+  </li>
+  <li>
+  <p>When you're finished, be sure to add a category or any
+  descriptive tags if you want.</p>
+  </li>
+  <li>
+  <p>Publish the post when you're finished.</p>
+  </li>
+  </ul>
+  <p><strong>Featured Image Posts</strong></p>
+  <ul>
+  <li>
+  <p>Create a new post and add a title and description.</p>
+  </li>
+  <li>
+  <p>Write your content and add whatever styling you want.</p>
+  </li>
+  <li>
+  <p>On the right hand side of your page, you'll see the Featured
+  Image Pane. Click Set Featured Image and upload your image. Once
+  uploaded, scroll down and click "Use as featured image". Once set,
+  you can close the image upload window.</p>
+  </li>
+  <li>
+  <p>Publish the post when you're finished.</p>
+  </li>
+  </ul>
+  <p><strong>Gallery Image Posts</strong></p>
+  <ul>
+  <li>
+  <p>Create a new post and add a title and description.</p>
+  </li>
+  <li>
+  <p>Write your content and add whatever styling you want.</p>
+  </li>
+  <li>
+  <p>Click the Upload/Insert Media button. Once the window pops-up,
+  drag your images onto the uploader and WordPress will upload
+  them.</p>
+  </li>
+  <li>
+  <p>When the images are done uploading, you can drag and drop them
+  in the order you'd like them to appear in your gallery. Save all
+  changes when you're done.</p>
+  </li>
+  <li>
+  <p>The post will use any images you have attached for the gallery
+  images. <strong>I suggest keeping your image width at 690px and
+  keeping your images proportional as to not look like
+  shit.</strong></p>
+  </li>
+  <li>
+  <p>Publish the post when you're finished.</p>
+  </li>
+  </ul>
+  <h2>Shortcodes</h2>
+  <p>This theme comes with several shortcodes that will make
+  customizing your content easier. I have simplified the use of
+  shortcodes by including a Shortcode Manager. On your posts and
+  pages, on the editor, you'll see a small cog icon. Click this and a
+  small pop-up window will appear. Using the various links across the
+  top, you can add buttons, columns, tooltips, and messages. Check
+  out the install video (towards the end) for a more detailed look at
+  this feature.</p>
+  <h2>Post Styles</h2>
+  <p>Rewrite comes with a few custom element styles, which are used
+  to easily add extra styling to your WordPress posts.</p>
+  <p>To use the post styles, simply select your text and then select
+  from the drop down which style you would like to apply. You'll be
+  able to see the changes live, in your editor.</p>
+  <ul>
+  <li>
+  <p><strong>Highlight</strong> - This will highlight the f**k out of
+  some text.</p>
+  </li>
+  <li>
+  <p><strong>Quote Aside</strong> - This style is an alternative to
+  the blockquote. It grabs the text, and throws it to the right of
+  the post, and gives it a nice light background. Nice for highlight
+  important bits of information or quotes.</p>
+  </li>
+  <li>
+  <p><strong>Page Title</strong> - As seen on the demo, this is a
+  nicely styled block of text to introduce your page.</p>
+  </li>
+  </ul>
+  <h2>Lightbox Gallery</h2>
+  <p>This theme is setup to automatically use the lightbox gallery
+  feature on certain portfolio images. If you would like to use it on
+  your own images, simply follow the example below. You're basically
+  linking a thumbnail photo to a larger photo and adding
+  <code>class="lightbox"</code> to the link.</p>
+  <p><code>&lt;a href="large-image.jpg" class="lightbox"&gt;&lt;img
+  src="thumb-image.jpg" alt="lightbox image"
+  /&gt;&lt;/a&gt;</code></p>
+  <p>To create a gallery of images to open in your lightbox, you need
+  to instead use <code>class="lightbox[gallerytitle]"</code>.</p>
+  <p><code>&lt;a href="large-image.jpg" class="lightbox"
+  rel="[gallery]"&gt;&lt;img src="thumb-image.jpg" alt="lightbox
+  image" /&gt;&lt;/a&gt;</code></p>
+  <h2>Contact Page</h2>
+  <p>The contact page uses the Contact Form 7 plugin, which you
+  should have installed earlier. Once installed, you'll see there is
+  a <strong>Contact</strong> link in the left hand sidebar of your
+  WordPress admin.</p>
+  <p>Let's start with displaying a form on your page. First, open the
+  Contact -&gt; Edit menu on your WordPress administration panel. You
+  can manage multiple contact forms there.</p>
+  <p>Just after installing the Contact Form 7 plugin, you'll see a
+  default form named "Contact form 1", and a code like this:</p>
+  <p>[contact-form 1 "Contact form 1"]</p>
+  <p>Copy this code. Then, open the edit menu of the page (Pages
+  -&gt; Edit) into which you wish to place the contact form. A
+  popular practice is creating a page named "Contact" for the contact
+  form page. Paste the code you copied into the contents of the
+  page.</p>
+  <p>Now your contact form setup is complete. Visitors to your site
+  can now find the form and start submitting messages to you.</p>
+  <p>To customize this form even further, check out the Contact Form
+  7 docs page <a href=
+  "http://contactform7.com/blog/2009/11/02/getting-started-with-contact-form-7/">
+  here</a>.</p></div>
+  
+      </div>
+    </div>
+	
+	
+	</div><!-- end div .container -->
+</body>
+</html>

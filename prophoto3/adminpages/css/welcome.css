@@ -1,0 +1,151 @@
+#help-icon {
+	background:url(http://prophoto.s3.amazonaws.com/img/help.png) top right;
+	width:16px;
+}
+.welcome-chunk .btn-holder a.button-secondary {
+	float:left;
+	margin-right:25px;
+}
+.p3wrap .p3-updated {
+	display: block !important;
+	height:auto !important;
+	padding:4px 8px;
+	margin-bottom:0;
+}
+/* welcome chunk js style */
+.welcome-chunk {
+	display:none;
+}
+.welcome-chunk-active {
+	display:block;
+}
+/* p2 welcome styles */
+p.has-btn {
+	line-height:2em;
+}
+div.btn-holder {
+	height:auto !important;
+	overflow:visible !important;
+	height:40px;
+	margin-top:25px;
+}
+.p3wrap a.button-secondary {
+	float:right;
+	padding:8px 11px !important;
+	font-size:18px !important;
+	height:auto !important;
+	overflow:visible !important;
+	text-decoration:none;
+}
+
+/* filecheck styles */
+.p3file-error {
+	width:640px;
+	margin-top:15px;
+	padding:8px;
+	background-color:#FFEBE8;
+	border:#CC0000 1px solid;
+}
+.p3file-error ul {
+	margin-top:5px;
+}
+.p3file-error li {
+	margin:0 0 3px 15px;
+}
+
+
+/* general welcome formatting */
+.p3wrap {
+	width: 640px;
+}
+h2 {
+	border-width:0 !important;
+}
+.p3wrap a {
+	cursor:pointer;
+	text-decoration:underline;
+}
+.p3wrap img {
+	display:block;
+	border:1px solid #999;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.p3wrap #icon-tools {
+	height:36px !important;
+}
+label {
+	display:block;
+}
+p {
+}
+form {
+	margin-top:20px;
+}
+p.intro {
+	font-size:1.1em;
+}
+form p span {
+	display:none;
+	color:red;
+	font-style:italic;
+}
+form p.p3error span {
+	display:inline;
+}
+form p.p3error input {
+	border-color:red;
+}
+strong span {
+	text-decoration:underline;
+}
+#do-it-later {
+	margin-left:10px;
+	opacity:.6;
+}
+.p3wrap .button-primary {
+	text-decoration:none;
+}
+
+/* registration error */
+.not-found, .reg-error, .reg-issue {
+	color:red;
+	display:none;
+}
+.reg-issue {
+	color:#000;
+	font-style:italic;
+}
+.reg-problem p.intro {
+	display:none;
+}
+.registration-failed p.not-found {
+	display:block;
+}
+.registration-error .reg-error {
+	display:block;
+}
+.registration-error .reg-issue span {
+	display:none;
+}
+.reg-problem .reg-issue {
+	display:block;
+}
+#register-submit, #do-it-later {
+	padding:3px 6px;
+}
+/* clear the way for welcome stuff */
+div.default-password-nag {
+	display:none !important;
+}
+#wpbody-content .wrap * {
+	height:0;
+	overflow:hidden;
+}
+.wrap table, .updated, #favorite-actions, .add-new-h2, a.menu-tabs {
+	display:none;
+}
+#wpbody-content .p3wrap * {
+	height:auto;
+}

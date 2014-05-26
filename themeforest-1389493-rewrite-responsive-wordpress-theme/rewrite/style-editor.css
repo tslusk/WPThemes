@@ -1,0 +1,135 @@
+.mceContentBody h1, .mceContentBody h2, .mceContentBody h3, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 {
+    margin: 0 0 25px 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    color: #555;
+}
+
+.mceContentBody h1 { 
+	font-size: 34px;
+	line-height: 40px;
+}
+
+.mceContentBody h2 { 
+	font-size: 28px;
+	line-height: 32px;
+ }
+
+.mceContentBody h3 { 
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.mceContentBody h4 { 
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.mceContentBody h5 { 
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.mceContentBody h6 { 
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.mceContentBody {
+	width:690px;
+	font: 14px/22px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#555;
+}
+
+.mceContentBody p {
+	font: 14px/22px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#555;
+}
+
+.mceContentBody blockquote {
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 200;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+    padding: 8px 0 10px 60px;
+    margin: 22px 25px 25px 0px;
+    position: relative;
+}
+
+.mceContentBody blockquote p {
+	font-size: 20px !important;
+	line-height: 30px !important; 
+	margin-bottom: 0px !important;
+	color: #999;
+}
+
+.mceContentBody ul {
+	margin: 0 0 25px 15px;
+	font: 14px/22px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #555;
+}
+
+.mceContentBody li {
+	list-style-type: square;
+	margin: 0 0 8px 0;
+}
+
+.mceContentBody ol {
+	 margin: 0 0 25px 15px;
+	 font: 14px/22px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 color: #555;
+}
+.mceContentBody ol li {
+	list-style-type: decimal;
+}
+
+.intro {
+	font-size: 18px;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: 300;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+	border-bottom: solid 1px #eee;
+	color: #888;
+	padding-right: 190px;
+}
+
+.one-half {
+	width:325px;
+	float:left;
+	margin:0 20px 30px 0;
+}
+
+.one-quarter {
+	width: 152px;
+	float: left;
+	margin: 0 20px 30px 0;
+}
+
+.highlight {
+	background: #fdf8df;
+	width: auto;
+	display: inline;
+	padding: 2px 3px;
+}
+
+.quote-aside {
+	padding:25px;
+	float:right;
+	margin:0 0 20px 20px;
+	width:125px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height:22px;
+	background: #f7f7f7;
+	border-top: solid 3px #eee;
+}
+
+hr {
+	height: 1px;
+	margin: 30px 0 40px 0;
+	border: 0;
+	border-bottom: solid 1px #eee;
+}

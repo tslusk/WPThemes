@@ -1,0 +1,248 @@
+@import url("options.css" );
+/* import P2 layouts form */
+#starter-designs {
+	width:800px;
+	margin-bottom:30px;
+}
+.design-template {
+	float:left;
+	margin-right:18px;
+	margin-bottom:12px;
+	text-decoration:none;
+}
+.design-template p {
+	text-align:center;
+}
+
+#import-p2-layouts p.input-wrap {
+	margin:4px 0;
+	padding:0;
+}
+#import-p2-layouts input {
+	margin-right:5px;
+}
+a.p3-design-btn {
+	margin-right:60px;
+	margin-top:20px;
+}
+#top-group {
+	margin:25px 0 38px 0;
+}
+#top-group h3 {
+	margin-top:0 !important;
+}
+#reset-everything input {
+	margin-top:11px;
+}
+#reset-everything input:hover {
+	color:red;
+	border-color:red;
+	cursor:pointer;
+}
+.p3-settings h3 {
+	font-family:Georgia, Times, serif;
+	margin-top:1.2em !important;
+	font-size:18px !important;
+	padding-top:9px !important;
+	padding-bottom:9px !important;
+	max-width:750px;
+}
+#active-design-wrap {
+	width:500px;
+	float:left;
+}
+#new-designs-wrap {
+	margin-left:525px;
+	width:255px;
+}
+#new-designs-wrap div {
+	margin:0 0 15px 0;
+}
+p.secondary {
+	font-family:Georgia, Times, serif;
+	font-size: 1.3em;
+	max-width:700px;
+	margin-bottom:1.6em;
+}
+a.delete_design, a.customize_design {
+	float:right;
+	margin-right:0 !important;
+}
+a.delete_design:hover {
+	color:red;
+	border-color:red;
+}
+#active-design-prefix {
+	text-transform:uppercase;
+	font-size: 13px !important;
+	letter-spacing:1px;
+	font-weight:400;
+}
+#active-design-desc-prefix {
+	text-transform:uppercase;
+	font-size: 11px !important;
+	letter-spacing:1px;
+	vertical-align:top;
+}
+p.intro {
+	font-size:1.6em;
+	font-family:Georgia, Times, serif;
+	max-width:730px;
+	margin-bottom:0.3em;
+}
+#misc_form {
+	display:none;
+}
+.inactive-design {
+	width:350px;
+}
+.design {
+	border: 1px solid #ccc;
+	float:left;
+	background:#f6f6f6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	padding:3px 13px 13px 13px;
+	margin:0 20px 20px 0;
+	color:#333;
+}
+.active-design {
+	margin-bottom:0 !important;
+	max-width:742px;
+	background:#fff url(../../images/prophoto2_bio_bg.jpg) repeat-x 100% 70%;
+	border: 3px double #aaa;
+	float:none;
+}
+.active-design p {
+	font-size:13px;
+}
+.inactive-design p {
+	color:#777;
+	font-size:11px !important;
+}
+.inactive-design h4 {
+	color:#565656;
+	font-size:13px !important;
+}
+.active-design h4 {
+	font-size:16px !important;
+	padding:0 0 5px 0;
+	border-bottom:1px dotted #aaa;
+}
+.design h4 {
+	font-size:1.3em;
+	margin:8px 0 0 0;
+}
+.design .button-secondary {
+	margin-right:4px;
+}
+.inactive-design .button-secondary {
+	margin-right:2px;
+	padding:3px 6px;
+	font-size:10px !important;
+}
+.design p {
+	margin-bottom:0;
+}
+.edit-designs {
+	margin:10px 0 3px 0;
+}
+.p3_miniforms input {
+	cursor:pointer;
+}
+.p3-settings .error, .p3-settings .updated {
+	margin: -6px 0 18px 0;
+}
+ul.flatfile-list {
+	font-family:"Lucida Grande", Verdana, sans-serif;
+	font-size:83%;
+	padding:0 10px;
+	margin-bottom:14px;
+}
+ul.flatfile-list li {
+	line-height:1em !important;
+	margin-bottom:0;
+	padding:5px 0px 5px 10px;
+	min-height:20px;
+}
+ul.flatfile-list li span.p3_setname {
+	font-family:Georgia, Times, serif;
+	font-style:italic;
+	padding-top:5px;
+	#padding-top:9px;
+}
+ul.flatfile-list li form {
+	display:inline;
+}
+ul.flatfile-list li.alt {
+	background:#f1f1f1;
+}
+ul.flatfile-list li.hover {
+	background:#eaf2fa;
+}
+ul.flatfile-list li :last {
+	border-bottom:red;
+}
+.p3_flatfile_activate, .p3_flatfile_saveto, .p3_flatfile_delete {
+	float:right;
+	padding-top:2px;
+}
+.p3_flatfile_delete input:hover {
+	border:1px solid red;
+	background:#faa;
+}
+
+.wrap h2 {
+	margin-bottom:15px;
+}
+.wrap h3 {
+	background: #dfdfdf url(http://prophoto.s3.amazonaws.com/img/postbox-bg.jpg) repeat-x top left;
+	color: #555;
+	font-size:12px;
+	padding: 6px 13px;
+	margin-top:0;
+}
+.settings-chunk p.submit {
+	-moz-border-radius: 0;
+	-khtml-border-radius: 0;
+	-webkit-border-radius: 0;
+	padding:7px;
+	margin-bottom:0;
+}
+.settings-chunk {
+	border:1px solid #dfdfdf;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+
+}
+.save-flatfile {
+	float:right;
+	width:310px;
+}
+.managed-saved-flatfile {
+	margin-right: 335px;
+}
+.settings-chunk p {
+	padding:0 14px;
+}
+.p3_miniforms  {
+	xheight:25px;
+}
+.p3_miniforms  div{
+	float:left;
+}
+.p3_miniforms  input{
+	font-size:9px;
+	padding:1px;
+	margin:0 1em;
+}
+
+.p3_setname {
+	font-size:130%;
+	float:left;
+}
+
+.flatfile-list li {
+	list-style:none;
+}

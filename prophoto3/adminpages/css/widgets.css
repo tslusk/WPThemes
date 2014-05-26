@@ -1,0 +1,174 @@
+a.p3-widget-help {
+	float:right;
+	margin:0 0 2px 4px;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background:url(http://prophoto.s3.amazonaws.com/img/help.png) no-repeat top right;
+	text-decoration:none;
+}
+
+.sidebar-description .description {
+	font-size: 11px;
+	line-height:1.3em;
+}
+
+/* twitter SLIDER */
+div.widgets-holder-wrap {
+	margin-bottom:12px;
+}
+.js-info {
+	display:none;
+}
+.p3-twitter-slider {
+	margin:0 auto;
+}
+.p3-twitter-slider .sliding .controls a {
+	display:block;
+}
+.p3-twitter-slider .not-sliding .controls a {
+	display:none;
+}
+.viewer {
+	border-bottom:1px dotted transparent;
+	border-right:1px dotted transparent;
+}
+.incrementer a {
+	padding-left:3px;
+	padding-top:2px;
+	cursor:pointer;
+}
+.incrementable-2 {
+	float:right;
+}
+.no-img .with-img {
+	display:none;
+}
+input.inline {
+	text-align:right;
+	font-weight:700;
+	padding:1px;
+}
+.add-slider-image {
+	display:none;
+	font-style:italic;
+}
+.p3-twitter-slider-form label {
+	font-weight:700;
+}
+.p3-twitter-slider-form p {
+	margin-top:20px !important;
+}
+.incrementable label {
+	margin-top:0;
+	font-weight:400;
+}
+label.tweet_width {
+	margin-right:5px;
+}
+p.double {
+	margin-top:10px !important;
+	xwidth:430px;
+}
+
+
+.p3-widget .widget-title {
+	font-style:italic;
+	color:#232c95;
+	font-size:1.1em;
+}
+.widget-holder .p3-widget {
+	color:#232c95;
+}
+
+select.block {
+	display:block;
+}
+
+/* twitter INTERACTIVE badge */
+.p3-twitter-interactive-preview {
+	font-weight:bold;
+	float:left;
+	margin-left:0 !important;
+}
+.p3-twitter-interactive-preview p {
+	margin-bottom:5px !important;
+}
+.p3-twitter-interactive-form {
+	margin-left:310px !important;
+	width:200px;
+}
+.p3-twitter-interactive-preview-image {
+	width:290px;
+	height:350px;
+	margin-bottom:10px;
+	background-image:url(../../images/twitter-interactive-badge-preview.jpg);
+}
+.p3-twitter-interactive .smooth {
+	background-position:0 0;
+}
+.p3-twitter-interactive .velvetica {
+	background-position:-290px 0;
+}
+.p3-twitter-interactive .revo {
+	background-position:-580px 0;
+}
+
+/* twitter SIMPLE badge */
+div.p3-twitter-simple-form {
+	width:270px;
+	margin-left:200px !important;
+}
+.p3-twitter-simple p.p3-twitter-simple-preview {
+	float:left;
+	font-weight:bold;
+	text-indent:10px;
+	margin-left:0 !important;
+}
+
+/* P3 Text widget */
+.p3_tag_btn {
+	padding:0 3px !important;
+	height:18px !important;
+	margin:0 0 3px 3px;
+	background:#eee;
+	color:#000;
+	font-size:10px;
+	float:right;
+}
+.p3-text-textarea-holder {
+	margin-bottom:2px !important;
+}
+.p3-text .hidden {
+	display:none;
+}
+.p3-text-target {
+	font-size:1.1em;
+}
+.p3-text h3 {
+	margin-top:20px;
+}
+
+
+/* social media and custom icon */
+.p3-custom-icon-form p.column {
+	width:194px;
+}
+.p3-social-media-icons-form h3, .p3-custom-icon-form h3 {
+	margin-bottom:5px;
+	clear:both;
+}
+.p3-social-media-icons-form p.column {
+	width:123px;
+}
+p.column {
+	float:left;
+}
+p.first-column {
+	margin-right:15px !important;
+}
+.p3-social-media-icons-form p.note, .p3-custom-icon-form p.note {
+	line-height:1.1em;
+	font-size:11px;
+	font-style:italic;
+}

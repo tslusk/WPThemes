@@ -1,0 +1,71 @@
+html {
+	padding: 0 20px 20px 20px;
+	height:auto;
+}
+#import-p3 input {
+	margin-right:5px;
+}
+img#the-template {
+	margin-left:0;
+}
+#advanced {
+	display:none;
+}
+#advanced div {
+	margin-left:15px;
+}
+#show {
+	cursor:pointer;
+	font-size:10px;
+	color:#333;
+	text-transform:uppercase;
+}
+p.input-wrap {
+	padding:0;
+	line-height:1.1em;
+	margin:.75em 0;
+}
+p.input-wrap input {
+	margin-right:4px;
+}
+p.intro {
+	font-size:1.1em;
+	font-family: Georgia, Times, serif;
+	margin-bottom:20px;
+}
+div.option-wrap {
+	margin-bottom:0px;
+}
+div.option-wrap input {
+	margin-right:5px;
+}
+img {
+	display:block;
+	margin: 5px 0 15px 18px;
+}
+.starter-design {
+	float:left;
+	min-width:170px;
+	margin:0 20px 0 0;
+}
+.starter-design label {
+	font-size:.9em;
+}
+#starter-design-wrap {
+	margin-top:10px;
+}
+
+
+.self-clear:after { /* self-clear the float */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+* html .self-clear { /* for IE 5,6 */
+	height: 1%;
+} 
+*:first-child+html .self-clear { /* for IE7 */
+	min-height: 1px;
+}
